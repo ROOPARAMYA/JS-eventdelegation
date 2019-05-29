@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./common.css">
+</head>
+
+<body>
+    <h3> List Of Fruits Available</h3>
+    <ul id="fruits-list" onclick="add(event)">
+        <li class="mb-2">
+            Apple <i id="Apple" class="fas fa-plus btn btn-primary"></i>
+        </li>
+        <li class="mb-2">
+                Orange <i id="Orange" class="fas fa-plus btn btn-primary"></i>
+        </li>
+        <li class="mb-2">
+            Bannana <i id="Bannana" class="fas fa-plus btn btn-primary"></i>
+        </li>
+        <li>
+            Mango <i id="Mango" class="fas fa-plus btn btn-primary"></i>
+        </li>
+    </ul>
+    <h3>Selected Fruits Count</h3>
+    <p id="selected-fruits"></p>
+    <script src="./fruits.js"></script>
+</body>
+
+</html>

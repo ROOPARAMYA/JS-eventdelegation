@@ -1,0 +1,8 @@
+#fruits-list li{
+    margin-bottom: 3px;
+}
+
+li .btn {
+    padding: 0px 3px;
+    border-radius: 10px;
+}
